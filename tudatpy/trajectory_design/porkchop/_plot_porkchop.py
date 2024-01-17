@@ -217,7 +217,7 @@ def plot_porkchop_of_single_field(
             contour,
             cax=cax)
         cbar.ax.set_title(
-            '$m^2/s^2$' if C3 else 'm/s',
+            '$km^2/s^2$' if C3 else 'km/s',
              pad=12.5,
              x=2.5
         )
